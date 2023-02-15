@@ -1,0 +1,28 @@
+{
+    "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "travelapp",
+    "items": {
+        "includes": [
+            {
+                "name": "ta-templates",
+                "path": "/sitecore/templates/Project/travelapp"
+            },
+            {
+                "name": "ta-media",
+                "path": "/sitecore/media library/Project/travelapp"
+            },
+            {
+                "name": "ta-placeholders",
+                "path": "/sitecore/layout/Placeholder Settings/Project/travelapp"
+            },
+            {
+                "name": "ta-renderings",
+                "path": "/sitecore/layout/Renderings/Project/travelapp"
+            },
+            {
+                "name": "ta-content",
+                "path": "/sitecore/content/travelapp"
+            }
+        ]
+    }
+}

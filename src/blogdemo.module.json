@@ -1,0 +1,28 @@
+{
+    "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "blogdemo",
+    "items": {
+        "includes": [
+            {
+                "name": "bg-templates",
+                "path": "/sitecore/templates/Project/blogdemo"
+            },
+            {
+                "name": "bg-media",
+                "path": "/sitecore/media library/Project/blogdemo"
+            },
+            {
+                "name": "bg-placeholders",
+                "path": "/sitecore/layout/Placeholder Settings/Project/blogdemo"
+            },
+            {
+                "name": "bg-renderings",
+                "path": "/sitecore/layout/Renderings/Project/blogdemo"
+            },
+            {
+                "name": "bg-content",
+                "path": "/sitecore/content/blogdemo"
+            }
+        ]
+    }
+}

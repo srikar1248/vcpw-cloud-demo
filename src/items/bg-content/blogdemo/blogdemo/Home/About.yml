@@ -1,0 +1,68 @@
+﻿---
+ID: "73f9a799-79e3-4f65-a944-2c1629d04a4f"
+Parent: "6454b4a8-8e93-4279-811f-5b4e6fce5693"
+Template: "fe6cdb5b-f1fb-4fb5-b6fa-b6cbb181e59b"
+Path: /sitecore/content/blogdemo/blogdemo/Home/About
+BranchID: "aa757cc9-f2da-4f78-a33d-9d382d5fcf92"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{9E5BA86D-A046-40FB-80E4-1187AC337E4A}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{978C8EFD-0993-4772-8DB9-41D6B642877B}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7b1AE9FB28-C64A-46BC-B967-64DFD214CCAA%7d%7c%7bB0F10FEB-91EB-4FA7-9B58-E5A1A7109C77%7d%7c%7bEE6F714B-6B03-439C-B4E1-2005153EB127%7d%7c%7bE78ADBAE-4DB2-459C-A690-6B015E58DFB7%7d%7c%7bC1BD04DE-4C00-441E-BBDB-E3B9CADE0857%7d%7c%7b444D772B-78A3-4140-AC12-E86A52FC678B%7d%7c%7b22760982-51D8-4D29-9A18-CD374A0276CF%7d%7c%7b3E059370-C70C-49FB-A00D-DDC031CF1274%7d%7c%7b9EF9C733-06DE-434C-9D15-52AE950C7FAB%7d%7c%7b5DC01E94-B28A-4753-ACCD-1E452D9C2180%7d%7c%7bAA2574FE-ECE2-4B91-81C0-BEA184E55352%7d%7c%7b3E8B7465-6073-47A8-AD38-C2C51B3FBF3E%7d%7c%7b91615F68-AF37-46EC-AF9B-AC28C211D872%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{40F0AE6A-8368-44D8-AB27-418B0026713F}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b959FDFBB-4691-4A17-816F-7A5330B8216A%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d&amp;FieldNames=%7bA3810CE5-CF0B-4A55-BC95-DCD1D2002AF7%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{B8E694EC-3576-4CC6-8628-AEE286A9AB38}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230213T064152Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: About
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "57146f58-cd01-4107-9a60-9e49f61f614b"
+    - ID: "b1a7aa70-5a2b-4527-b577-cd03e4c3531f"
+      Hint: Title
+      Value: About
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230213T064209Z

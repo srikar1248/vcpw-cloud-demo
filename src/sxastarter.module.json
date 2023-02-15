@@ -1,0 +1,28 @@
+{
+    "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "sxastarter",
+    "items": {
+        "includes": [
+            {
+                "name": "ss-templates",
+                "path": "/sitecore/templates/Project/sxastarter"
+            },
+            {
+                "name": "ss-media",
+                "path": "/sitecore/media library/Project/sxastarter"
+            },
+            {
+                "name": "ss-placeholders",
+                "path": "/sitecore/layout/Placeholder Settings/Project/sxastarter"
+            },
+            {
+                "name": "ss-renderings",
+                "path": "/sitecore/layout/Renderings/Project/sxastarter"
+            },
+            {
+                "name": "ss-content",
+                "path": "/sitecore/content/sxastarter"
+            }
+        ]
+    }
+}
