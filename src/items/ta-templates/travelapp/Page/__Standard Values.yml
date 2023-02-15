@@ -1,0 +1,40 @@
+﻿---
+ID: "3d72d9ba-a286-4ba2-a4a5-f6c156d6abc3"
+Parent: "22b76257-6d71-48e4-966c-ef387cb36010"
+Template: "22b76257-6d71-48e4-966c-ef387cb36010"
+Path: /sitecore/templates/Project/travelapp/Page/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {22B76257-6D71-48E4-966C-EF387CB36010}
+    {C14B6289-8AC2-439C-9E5B-40DE9F820C3F}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230212T060710Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "6c04ea66-7e9d-4d02-b531-18a5ba590f6f"
+      Hint: Title
+      Value: $name
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fd0251f7-8069-49a9-834a-9bab4b204f8d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230212T060717Z

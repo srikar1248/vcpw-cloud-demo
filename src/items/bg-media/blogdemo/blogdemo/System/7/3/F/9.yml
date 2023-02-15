@@ -1,0 +1,31 @@
+﻿---
+ID: "d2eb8ad4-b130-4d46-8abe-d4559bdd45dd"
+Parent: "0e316378-6b7e-4b77-b97c-ba6acbdc2c79"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Project/blogdemo/blogdemo/System/7/3/F/9
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230213T064208Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d78da1d7-7f07-4325-835e-6f4f3e621fd3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230213T064208Z

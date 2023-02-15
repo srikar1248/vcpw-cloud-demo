@@ -1,0 +1,138 @@
+﻿---
+ID: "f5424d5f-90bf-40cb-85fc-49bea552f66a"
+Parent: "8b05f769-77a8-4872-bc6f-191aed35edf0"
+Template: "22b76257-6d71-48e4-966c-ef387cb36010"
+Path: /sitecore/content/travelapp/travelapp/Home
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{34C17227-CCBB-4866-952D-AC550FACAD1A}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{1FAF32B5-409B-48E8-85B0-D4DBD65254CF}"
+          p:before="*"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7b6DFF137E-FFDC-4EDE-BD0E-1BB1718EF127%7d&amp;FieldNames=%7b7CBA8FF7-065A-4451-8048-2A87CD8F979D%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b3DC91543-36F8-452A-BACD-F98B0C21BCF9%7d%7c%7b6F83979B-4C3F-4EEC-8C64-F8DA29D83961%7d%7c%7b959FDFBB-4691-4A17-816F-7A5330B8216A%7d%7c%7b271DE3B1-089F-4977-95EC-B5E51446FC01%7d%7c%7b1B189E02-FFC9-4ADC-84E5-D2AB5F6EC0FB%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b94BCE55D-68FC-4020-A364-176EF1AAAFFB%7d%7c%7bF4BC7C4C-175F-4EA4-A6D9-EFCD92507276%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d%7c%7b1FEC5EDD-5489-43F1-8C19-A092206E130D%7d%7c%7bB706790E-8CB2-4A93-B341-6E7171734B61%7d"
+          s:ph="headless-main" />
+        <r
+          uid="{A0366BD8-A533-4564-AA82-3034EC26A18D}"
+          p:after="r[@uid='{1FAF32B5-409B-48E8-85B0-D4DBD65254CF}']"
+          s:ds="local:/Data/Image 1"
+          s:id="{AB2EDBA0-3960-4F12-B765-579DC231894A}"
+          s:par="?DynamicPlaceholderId=2&amp;FieldNames=%7bB42C793F-42E7-4A9C-A5D4-5F4707C61074%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d"
+          s:ph="headless-main" />
+        <r
+          uid="{5F5ACEFE-FAEE-4F0E-BCE3-88FBD757BA26}"
+          p:after="r[@uid='{A0366BD8-A533-4564-AA82-3034EC26A18D}']"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7b1EA00D15-55F5-4BDD-A27B-B5E23FEF1CB2%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{AA103854-05CA-40E3-B890-60AE24D4695A}"
+          p:after="r[@uid='{5F5ACEFE-FAEE-4F0E-BCE3-88FBD757BA26}']"
+          s:ds="local:/Data/Text 2"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7b82E3423A-478A-4E2C-94C3-DD2F544A1D70%7d&amp;FieldNames=%7b7CBA8FF7-065A-4451-8048-2A87CD8F979D%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b959FDFBB-4691-4A17-816F-7A5330B8216A%7d%7c%7b271DE3B1-089F-4977-95EC-B5E51446FC01%7d%7c%7b1B189E02-FFC9-4ADC-84E5-D2AB5F6EC0FB%7d"
+          s:ph="/headless-main/container-1" />
+        <r
+          uid="{9D9E5551-82F0-4E5E-B7FA-15F0F688A2A4}"
+          p:after="r[@uid='{AA103854-05CA-40E3-B890-60AE24D4695A}']"
+          s:ds="local:/Data/PromoLeft"
+          s:id="{2492BAC4-DA07-4C86-87F0-9873D40E2276}"
+          s:par="?Styles=%7b99F59F20-7615-4525-9AC8-485C2566323E%7d&amp;FieldNames=%7b55762A1F-5F12-4D3D-8FA3-A08B2A3E5582%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b81225C08-5783-4BED-A86A-AB2B87198885%7d%7c%7b41E4B2ED-E813-46F9-8455-C26C88E78D47%7d%7c%7b1D84575C-B71C-40B2-BE7E-65503BCD666E%7d"
+          s:ph="/headless-main/container-1" />
+        <r
+          uid="{BB283ADE-4F0D-4EC3-9A16-81990E7AE54F}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/PromoRight"
+          s:id="{2492BAC4-DA07-4C86-87F0-9873D40E2276}"
+          s:par="?Styles=%7b99F59F20-7615-4525-9AC8-485C2566323E%7d&amp;FieldNames=%7b55762A1F-5F12-4D3D-8FA3-A08B2A3E5582%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b81225C08-5783-4BED-A86A-AB2B87198885%7d%7c%7b41E4B2ED-E813-46F9-8455-C26C88E78D47%7d%7c%7b1D84575C-B71C-40B2-BE7E-65503BCD666E%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F558BEC9-C602-4D7A-B9A1-D0411C946EA4}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{A0366BD8-A533-4564-AA82-3034EC26A18D}">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{7C4367D4-F492-458A-806F-D0BF84475896}"
+                    s:name="Specify name...">
+                    <conditions>
+                      <condition
+                        uid="E0526367CD7E4F4FAD6FAA8704FB91A4"
+                        s:id="{F27973B0-4439-48F6-AC06-ED2C2F31AC61}"
+                        s:Month="{5F6CD10B-494F-423D-9925-79A51C40DDEE}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="262BD093638642A5A945BDCA3E7C95C4"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="local:/Data/Image 2" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="2E80748A73A64DF09A18BEDC73841130"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230212T060719Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Home
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "6c04ea66-7e9d-4d02-b531-18a5ba590f6f"
+      Hint: Title
+      Value: Home
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "646a1a17-768d-4de3-9d76-4a4291e9dd4e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230214T191844Z
