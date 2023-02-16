@@ -1,15 +1,12 @@
 {
     "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
     "namespace": "sxastarter",
+    "references": ["sxastarter.media"],
     "items": {
         "includes": [
             {
                 "name": "ss-templates",
                 "path": "/sitecore/templates/Project/sxastarter"
-            },
-            {
-                "name": "ss-media",
-                "path": "/sitecore/media library/Project/sxastarter"
             },
             {
                 "name": "ss-placeholders",
