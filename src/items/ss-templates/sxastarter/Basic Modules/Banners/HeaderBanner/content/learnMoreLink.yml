@@ -1,19 +1,15 @@
 ﻿---
-ID: "09c93535-a7a5-48d0-babf-d2ccfbcba597"
-Parent: "e89d3843-ed9c-47d9-b600-452ab49b9c3a"
-Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
-Path: /sitecore/content/sxastarter/sxastarter/Presentation/Available Renderings/Media
-BranchID: "80a19fb5-570d-4b16-94cf-6d294ddc78ec"
+ID: "7117166f-12fc-480b-99d2-c82fdbaf2ff3"
+Parent: "a1ea91cb-673c-4a77-bfe0-d20be381cc43"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/sxastarter/Basic Modules/Banners/HeaderBanner/content/learnMoreLink
 SharedFields:
-- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
-  Hint: Renderings
-  Value: |
-    {AB2EDBA0-3960-4F12-B765-579DC231894A}
-    {089C7FC7-9BBE-4AB7-AEDD-544CCCA0C8A1}
-    {FED99EDC-7A13-4239-9027-F61978A90027}
-- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
-  Hint: __Originator
-  Value: "{A2C2E7AD-2885-48FB-BE23-052C4C5F5CC4}"
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: General Link
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
 Languages:
 - Language: en
   Versions:
@@ -21,7 +17,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230214T144054Z
+      Value: 20230216T134402Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -32,11 +28,11 @@ Languages:
         sitecore\srikaracharya.vatkanambi@ogilvy.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "77a13ead-715f-4ac5-abbe-c537eec2613e"
+      Value: "0c0bf15d-2c8e-490f-9eae-bd5aef9aa9ea"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\srikaracharya.vatkanambi@ogilvy.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230217T075832Z
+      Value: 20230216T134531Z

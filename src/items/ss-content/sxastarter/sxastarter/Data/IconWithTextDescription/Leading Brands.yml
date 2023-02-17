@@ -1,0 +1,36 @@
+﻿---
+ID: "e5fdef80-7951-4747-9bd7-7043eeea559e"
+Parent: "cb04a406-e155-4efa-b057-73dc9aa81614"
+Template: "f38201bb-a2de-4d17-9104-970da269a960"
+Path: /sitecore/content/sxastarter/sxastarter/Data/IconWithTextDescription/Leading Brands
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1bc480fd-4bd2-4b14-9c56-770e9c0a840c"
+      Hint: description
+      Value: We've joined the World Green Building Council's recently strengthened Net Zero Carbon Buildings Commitment
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230217T121737Z
+    - ID: "438c9bd3-eb44-427a-a374-d6d2475f0838"
+      Hint: SubTitle
+      Value: Leading Brands
+    - ID: "492e5e7d-237a-4429-b85a-5f35a09330d1"
+      Hint: title
+      Value: 5
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fe362996-96d9-4855-a7ad-84fa13b817ef"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "c371a801-3a34-42d4-8898-2967046a5e2e"
+      Hint: image
+      Value: |
+        <image mediaid="{96FFA08D-1BC2-4B6C-8008-FFF0F281E509}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230217T143547Z

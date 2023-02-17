@@ -1,0 +1,45 @@
+﻿---
+ID: "d31cc127-d4c5-4399-b847-4f76767aceef"
+Parent: "63795a81-124b-441f-8c3e-c82918c1adae"
+Template: "c081ef15-ee85-4b9e-94da-e3a9660d2613"
+Path: /sitecore/content/sxastarter/sxastarter/Data/HeaderBanners/HomeBanner
+SharedFields:
+- ID: "d10b22c5-eff2-4cbc-8bd9-ccbc314ee825"
+  Hint: getStartedLink
+  Value: |
+    <link text="Get Started" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{597C1B05-6333-4E31-8638-F06CA1FE8C32}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1bc480fd-4bd2-4b14-9c56-770e9c0a840c"
+      Hint: description
+      Value: "Quickly design and customize responsive mobile-first sites with Bootstrap, the world&rsquo;s most popular front-end open source toolkit!"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230217T075416Z
+    - ID: "492e5e7d-237a-4429-b85a-5f35a09330d1"
+      Hint: title
+      Value: A Bootstrap 5 template for modern businesses
+    - ID: "7117166f-12fc-480b-99d2-c82fdbaf2ff3"
+      Hint: learnMoreLink
+      Value: |
+        <link text="Learn More" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{597C1B05-6333-4E31-8638-F06CA1FE8C32}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6213ba4a-300b-4b25-a7c0-46a4c32375c7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "c371a801-3a34-42d4-8898-2967046a5e2e"
+      Hint: image
+      Value: |
+        <image mediaid="{0416977B-497A-4B33-9F28-6A33A9803207}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230217T110538Z
