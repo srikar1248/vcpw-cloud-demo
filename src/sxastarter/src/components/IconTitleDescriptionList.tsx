@@ -3,8 +3,8 @@ import {
   Field,
   withDatasourceCheck,
   Item,
-  Image as JssImage,
   ImageField,
+  NextImage,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
 type IconTitleDescriptionListProps = ComponentProps & {
@@ -20,10 +20,8 @@ const IconTitleDescriptionList = (props: IconTitleDescriptionListProps): JSX.Ele
     <div className="container px-5 my-5">
       <div className="row gx-5">
         <div className="col-lg-4 mb-5 mb-lg-0">
-          <h2 className="fw-bolder mb-0">
-            <Text field={props?.fields?.title} />
-          </h2>
-          <p className="mb-0">{props?.fields?.description?.value}</p>
+          <Text tag="h2" className="fw-bolder mb-0" field={props?.fields?.title as Field<string>} />
+          <Text tag="p" className="mb-0" field={props?.fields?.description as Field<string>} />
         </div>
         <div className="col-lg-8">
           <div className="row gx-5 row-cols-1 row-cols-md-2">
@@ -33,16 +31,14 @@ const IconTitleDescriptionList = (props: IconTitleDescriptionListProps): JSX.Ele
                   <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                     <i className="bi bi-collection"></i>
                   </div>
-                  <JssImage classsName="img-fluid rounded-3 my-5" field={element?.fields?.image} />
-                  <h1 className="h1">
-                    <Text field={element?.fields?.title} />
-                  </h1>
-                  <p className="h3">
-                    <Text field={element?.fields?.SubTitle} />
-                  </p>
-                  <p className="mb-0">
-                    <Text field={element?.fields?.description} />
-                  </p>
+                  <NextImage classsName="img-fluid rounded-3 my-5" field={element?.fields?.image} />
+                  <Text tag="h1" className="h1" field={element?.fields?.title as Field<string>} />
+                  <Text tag="p" className="h3" field={element?.fields?.SubTitle as Field<string>} />
+                  <Text
+                    tag="p"
+                    className="mb-0"
+                    field={element?.fields?.description as Field<string>}
+                  />
                 </div>
               );
             })}
