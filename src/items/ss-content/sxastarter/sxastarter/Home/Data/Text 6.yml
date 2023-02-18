@@ -1,0 +1,50 @@
+﻿---
+ID: "4adfa708-e803-4742-98f1-3cf23b4e6b20"
+Parent: "4c33127d-48f2-47d9-b753-47519a642d8a"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: /sitecore/content/sxastarter/sxastarter/Home/Data/Text 6
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230218T144507Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <section>
+        <div class="container px-5 my-5">
+        <div class="row gx-5 align-items-center">
+        <div class="col-lg-6 order-first order-lg-last">
+        <img alt="" class="img-fluid rounded mb-5 mb-lg-0" src="-/media/4D1260A3A85F458A9D9744503EB50585.ashx?h=400&amp;w=600" style="height: 400px; width: 600px;" />
+        </div>
+        <div class="col-lg-6">
+        <h2 class="fw-bolder">Growth &amp; beyond</h2>
+        <p class="lead fw-normal text-muted mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto est, ut esse a labore aliquam beatae expedita. Blanditiis impedit numquam libero molestiae et fugit cupiditate, quibusdam expedita, maiores eaque quisquam.</p>
+        </div>
+        </div>
+        </div>
+        </section>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6237ab78-83fc-4907-99d6-33a4cdc01565"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230218T152353Z

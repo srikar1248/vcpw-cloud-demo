@@ -28,9 +28,6 @@ const IconTitleDescriptionList = (props: IconTitleDescriptionListProps): JSX.Ele
             {props?.fields?.IconTitleDescriptionList?.map((element, index) => {
               return (
                 <div key={index} className="col mb-5 h-100">
-                  <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
-                    <i className="bi bi-collection"></i>
-                  </div>
                   <NextImage classsName="img-fluid rounded-3 my-5" field={element?.fields?.image} />
                   <Text tag="h1" className="h1" field={element?.fields?.title as Field<string>} />
                   <Text tag="p" className="h3" field={element?.fields?.SubTitle as Field<string>} />
