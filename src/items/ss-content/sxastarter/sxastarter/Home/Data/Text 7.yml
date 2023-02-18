@@ -1,0 +1,75 @@
+﻿---
+ID: "cd54eea8-99d0-42b3-a21e-b891de19ee66"
+Parent: "4c33127d-48f2-47d9-b753-47519a642d8a"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: /sitecore/content/sxastarter/sxastarter/Home/Data/Text 7
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230218T151436Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <section class="py-5 bg-light">
+        <div class="container px-5 my-5">
+        <div class="text-center">
+        <h2 class="fw-bolder">Our team</h2>
+        <p class="lead fw-normal text-muted mb-5">Dedicated to quality and your success</p>
+        </div>
+        <div class="row gx-5 row-cols-1 row-cols-sm-2 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5 mb-5 mb-xl-0">
+        <div class="text-center">
+        <img class="img-fluid rounded-circle mb-4 px-4" src="https://dummyimage.com/150x150/ced4da/6c757d" alt="..." />
+        <h5 class="fw-bolder">Ibbie Eckart</h5>
+        <div class="fst-italic text-muted">Founder &amp; CEO</div>
+        </div>
+        </div>
+        <div class="col mb-5 mb-5 mb-xl-0">
+        <div class="text-center">
+        <img class="img-fluid rounded-circle mb-4 px-4" src="https://dummyimage.com/150x150/ced4da/6c757d" alt="..." />
+        <h5 class="fw-bolder">Arden Vasek</h5>
+        <div class="fst-italic text-muted">CFO</div>
+        </div>
+        </div>
+        <div class="col mb-5 mb-5 mb-sm-0">
+        <div class="text-center">
+        <img class="img-fluid rounded-circle mb-4 px-4" src="https://dummyimage.com/150x150/ced4da/6c757d" alt="..." />
+        <h5 class="fw-bolder">Toribio Nerthus</h5>
+        <div class="fst-italic text-muted">Operations Manager</div>
+        </div>
+        </div>
+        <div class="col mb-5">
+        <div class="text-center">
+        <img class="img-fluid rounded-circle mb-4 px-4" src="https://dummyimage.com/150x150/ced4da/6c757d" alt="..." />
+        <h5 class="fw-bolder">Malvina Cilla</h5>
+        <div class="fst-italic text-muted">CTO</div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "54566d9f-1f93-4d5f-9e5c-869b7a942752"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230218T151458Z
