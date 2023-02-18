@@ -58,12 +58,9 @@ export const Default = (props: NavigationProps): JSX.Element => {
 
   if (!Object.values(props.fields).length) {
     return (
-      <nav
-        className={`navbar navbar-expand-lg navbar-dark bg-dark ${styles}`}
-        id={id ? id : undefined}
-      >
-        [Navigation]
-      </nav>
+      <div className={`component navigation ${styles}`} id={id ? id : undefined}>
+        <div className="component-content">[Navigation]</div>
+      </div>
     );
   }
 
@@ -91,27 +88,22 @@ export const Default = (props: NavigationProps): JSX.Element => {
     ));
 
   return (
-    <nav className={`navbar navbar-expand-lg navbar-dark bg-dark`}>
-      <div className="container px-5">
-        <a className="navbar-brand logo-text" href="#!">
-          DarGroup
-        </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav ms-auto mb-2 mb-lg-0">{list}</ul>
+    <div className={`component navigation ${styles}`} id={id ? id : undefined}>
+      <label className="menu-mobile-navigate-wrapper">
+        <input
+          type="checkbox"
+          className="menu-mobile-navigate"
+          checked={isOpenMenu}
+          onChange={() => handleToggleMenu()}
+        />
+        <div className="menu-humburger" />
+        <div className="component-content">
+          <nav>
+            <ul className="clearfix">{list}</ul>
+          </nav>
         </div>
-      </div>
-    </nav>
+      </label>
+    </div>
   );
 };
 
@@ -131,19 +123,22 @@ const NavigationList = (props: NavigationProps) => {
   }
 
   return (
-    <>
-      <li className="nav-item" key={props.fields.Id} tabIndex={0}>
+    <li
+      className={props.fields.Styles.concat('rel-level' + props.relativeLevel).join(' ')}
+      key={props.fields.Id}
+      tabIndex={0}
+    >
+      <div className="navigation-title">
         <Link
-          className="nav-link"
           field={getLinkField(props)}
           editable={sitecoreContext.pageEditing}
           onClick={props.handleClick}
         >
           {getNavigationText(props)}
         </Link>
-      </li>
-      {children.length > 0 ? <>{children}</> : null}
-    </>
+      </div>
+      {children.length > 0 ? <ul className="clearfix">{children}</ul> : null}
+    </li>
   );
 };
 
