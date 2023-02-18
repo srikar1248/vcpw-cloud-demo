@@ -1,0 +1,57 @@
+﻿---
+ID: "03675f09-2156-4f03-876a-2ececd433ddb"
+Parent: "4c33127d-48f2-47d9-b753-47519a642d8a"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: /sitecore/content/sxastarter/sxastarter/Home/Data/Text 8
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230218T151615Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <section class="py-5">
+        <div class="container px-5 my-5">
+        <!-- Call to action-->
+        <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
+        <div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
+        <div class="mb-4 mb-xl-0">
+        <div class="fs-3 fw-bold text-white">New products, delivered to you.</div>
+        <div class="text-white-50">Sign up for our newsletter for the latest updates.</div>
+        </div>
+        <div class="ms-xl-4">
+        <div class="input-group mb-2">
+        <input class="form-control" type="text" placeholder="Email address..." aria-label="Email address..." aria-describedby="button-newsletter" />
+        <button class="btn btn-outline-light" id="button-newsletter" type="button">Sign up</button>
+        </div>
+        <div class="small text-white-50">We care about privacy, and will never share your data.</div>
+        </div>
+        </div>
+        </aside>
+        </div>
+        </section>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6bbf9884-53f4-4d8c-885a-263a4a503b93"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230218T151833Z

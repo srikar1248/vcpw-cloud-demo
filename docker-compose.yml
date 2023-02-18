@@ -79,7 +79,7 @@ services:
   cm:
     isolation: ${ISOLATION}
     image: ${SITECORE_DOCKER_REGISTRY}sitecore-xmcloud-cm:${SITECORE_VERSION}
-    hostname: ${CM_HOST}
+    #hostname: ${CM_HOST}
     depends_on:
       mssql:
         condition: service_healthy
