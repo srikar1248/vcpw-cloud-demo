@@ -1,0 +1,31 @@
+﻿---
+ID: "af7fcec1-0f8f-43d0-a0eb-0e21ce4cc00a"
+Parent: "0b392b47-0ae7-4181-9010-9a0b95928476"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/sxastarter/Base Template/_TitleWithDescription/content
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230216T115947Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9920706a-c2f1-43b8-862a-2240f7009e00"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230216T120122Z
