@@ -71,20 +71,27 @@ Languages:
       Value: 20230213T101015Z
     - ID: "3121c257-53cf-464a-b736-98b418876057"
       Hint: AppName
-      Value: Default
+      Value: sxastarter
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "986522ec-d58b-403f-b3c6-aa2a94164d53"
+      Value: "7e494d82-04ff-4240-aeb7-fdbecd0897ef"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230215T051350Z
     - ID: "e32c1801-79b3-4fc1-a9c4-3c6e6c2968ae"
       Hint: ServerSideRenderingEngineApplicationUrl
-      Value: "https://xmc-51ypthlrcmecr1poep2kxx.sitecorecloud.io/"
+      Value: "http://rendering:3000"
     - ID: "fc76919b-0d7c-4732-865d-2af795fb38a4"
       Hint: ServerSideRenderingEngineEndpointUrl
-      Value: "https://xmc-51ypthlrcmecr1poep2kxx.sitecorecloud.io:443/api/editing/render"
+      Value: "http://rendering:3000/api/editing/render"
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
