@@ -17,5 +17,9 @@
     }
   ],
   "appService.defaultWebAppToDeploy": "/subscriptions/42c342a3-b2db-4152-8914-f87ba358e0ff/AppServices/subscriptions/42c342a3-b2db-4152-8914-f87ba358e0ff/resourceGroups/DarGroup/providers/Microsoft.Web/sites/dargroupdemo",
-  "appService.deploySubpath": "src\\sxastarter"
+  "appService.deploySubpath": "src\\sxastarter",
+  "appService.zipIgnorePattern": [
+    "node_modules{,/**}",
+    ".vscode{,/**}"
+  ]
 }
