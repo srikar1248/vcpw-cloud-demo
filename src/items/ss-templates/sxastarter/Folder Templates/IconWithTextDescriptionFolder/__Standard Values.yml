@@ -6,7 +6,9 @@ Path: /sitecore/templates/Project/sxastarter/Folder Templates/IconWithTextDescri
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
-  Value: "{F38201BB-A2DE-4D17-9104-970DA269A960}"
+  Value: |
+    {F38201BB-A2DE-4D17-9104-970DA269A960}
+    {E9FB616C-4F0A-436B-9456-38FD231AB73A}
 Languages:
 - Language: en
   Versions:
@@ -25,11 +27,11 @@ Languages:
         sitecore\srikaracharya.vatkanambi@ogilvy.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e9e527bf-1dfc-4122-a4eb-2af56af57f70"
+      Value: "65e53fb0-8b22-45bf-856c-d951fc0e6fb9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\srikaracharya.vatkanambi@ogilvy.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230217T120640Z
+      Value: 20230220T093843Z

@@ -2,7 +2,7 @@
 ID: "d31cc127-d4c5-4399-b847-4f76767aceef"
 Parent: "63795a81-124b-441f-8c3e-c82918c1adae"
 Template: "c081ef15-ee85-4b9e-94da-e3a9660d2613"
-Path: /sitecore/content/sxastarter/sxastarter/Data/HeaderBanners/HomeBanner
+Path: /sitecore/content/sxastarter/sxastarter/Data/HeaderBanners/ImageBanner
 SharedFields:
 - ID: "d10b22c5-eff2-4cbc-8bd9-ccbc314ee825"
   Hint: getStartedLink

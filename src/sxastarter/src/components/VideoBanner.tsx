@@ -1,0 +1,59 @@
+import {
+  Text,
+  Field,
+  withDatasourceCheck,
+  LinkField,
+  Link as JssLink,
+  RichText as JssRichText,
+} from '@sitecore-jss/sitecore-jss-nextjs';
+import { ComponentProps } from 'lib/component-props';
+import * as React from 'react';
+import ReactPlayer from 'react-player';
+import { useEffect, useState } from 'react';
+type VideoBannerProps = ComponentProps & {
+  fields: {
+    title: Field<string>;
+    description: Field<string>;
+    link: LinkField;
+    videolink: Field<string>;
+  };
+};
+const VideoBanner = (props: VideoBannerProps): JSX.Element => {
+  const [domLoaded, setDomLoaded] = useState(false);
+  useEffect(() => {
+    setDomLoaded(true);
+  }, []);
+  return (
+    <header className="bg-light py-5">
+      <div className="container px-5">
+        <div className="row gx-5 align-items-center justify-content-center">
+          <div className="col-lg-8 col-xl-7 col-xxl-6">
+            <div className="my-5 text-center text-xl-start">
+              <Text
+                tag="h1"
+                className="display-5 fw-bolder mb-2"
+                field={props?.fields?.title as Field<string>}
+              />
+              <JssRichText
+                tag="p"
+                className="lead fw-normal mb-4"
+                field={props?.fields?.description as Field<string>}
+              />
+              <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+                <JssLink
+                  className="btn btn-primary btn-lg px-4 me-sm-3"
+                  field={props?.fields?.link}
+                ></JssLink>
+              </div>
+            </div>
+          </div>
+          <div className="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
+            {domLoaded ? <ReactPlayer url={props?.fields?.videolink.value} width="100%" /> : null}
+          </div>
+        </div>
+      </div>
+    </header>
+  );
+};
+
+export default withDatasourceCheck()<VideoBannerProps>(VideoBanner);

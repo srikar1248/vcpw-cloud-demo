@@ -1,8 +1,12 @@
 ﻿---
-ID: "927ba915-c8b2-43f2-97fc-a343f0dd0c90"
-Parent: "cb04a406-e155-4efa-b057-73dc9aa81614"
+ID: "e5fdef80-7951-4747-9bd7-7043eeea559e"
+Parent: "dae94ef2-c860-41b4-ba3c-37b549da1149"
 Template: "f38201bb-a2de-4d17-9104-970da269a960"
-Path: /sitecore/content/sxastarter/sxastarter/Data/IconWithTextDescription/Offices
+Path: /sitecore/content/sxastarter/sxastarter/Data/IconWithTextDescription/At a Glance/Leading Brands
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
 Languages:
 - Language: en
   Versions:
@@ -10,21 +14,19 @@ Languages:
     Fields:
     - ID: "1bc480fd-4bd2-4b14-9c56-770e9c0a840c"
       Hint: description
-      Value: |
-        At Dar Group we will embed sustainability across our group within everything we do
-        
+      Value: We've joined the World Green Building Council's recently strengthened Net Zero Carbon Buildings Commitment
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230217T121637Z
+      Value: 20230217T121737Z
     - ID: "438c9bd3-eb44-427a-a374-d6d2475f0838"
       Hint: SubTitle
-      Value: Offices
+      Value: Leading Brands
     - ID: "492e5e7d-237a-4429-b85a-5f35a09330d1"
       Hint: title
-      Value: 297
+      Value: 5
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "77b417b5-8ea0-45f5-8721-30b74fc9f3e8"
+      Value: "afa0b463-b143-4dab-99b9-b4c45cf3e3dd"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -32,7 +34,7 @@ Languages:
     - ID: "c371a801-3a34-42d4-8898-2967046a5e2e"
       Hint: image
       Value: |
-        <image mediaid="{64308517-2197-423D-9AFC-F26ABAF3767D}" />
+        <image mediaid="{96FFA08D-1BC2-4B6C-8008-FFF0F281E509}" />
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230217T143554Z
+      Value: 20230220T094040Z

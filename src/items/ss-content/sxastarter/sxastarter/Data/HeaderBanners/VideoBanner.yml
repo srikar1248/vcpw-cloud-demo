@@ -1,0 +1,41 @@
+﻿---
+ID: "bd5cc9aa-ae40-4ba7-bdca-090d172a22dd"
+Parent: "63795a81-124b-441f-8c3e-c82918c1adae"
+Template: "5f4aab16-0fe7-443a-b1f4-ea5e690b3d76"
+Path: /sitecore/content/sxastarter/sxastarter/Data/HeaderBanners/VideoBanner
+SharedFields:
+- ID: "1952aa49-3b9a-4c1b-9363-9b23d821c9c1"
+  Hint: videolink
+  Value: "https://www.youtube.com/watch?v=wWgIAphfn2U"
+- ID: "2b0dae7b-04da-4ad9-a5e9-1ad82721fc51"
+  Hint: link
+  Value: |
+    <link text="Watch video" linktype="external" url="https://www.youtube.com/watch?v=wWgIAphfn2U" anchor="" target="_blank" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1bc480fd-4bd2-4b14-9c56-770e9c0a840c"
+      Hint: description
+      Value: |
+        We aim to connect people, places and
+        communities by providing innovative solutions
+        to the world's most complex engineering and
+        design challenges.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230220T082449Z
+    - ID: "492e5e7d-237a-4429-b85a-5f35a09330d1"
+      Hint: title
+      Value: Connect people, places, and communities
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "31d6e0b6-e8a9-4300-aa14-c566c1d76ecb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230220T093055Z
