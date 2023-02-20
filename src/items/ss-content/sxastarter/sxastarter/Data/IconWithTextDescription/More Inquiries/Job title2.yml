@@ -1,0 +1,36 @@
+﻿---
+ID: "d5934d50-9f37-491a-b386-de350d7e05cd"
+Parent: "adf81013-9dd1-4ad5-822e-8fd77f9dd8ad"
+Template: "f38201bb-a2de-4d17-9104-970da269a960"
+Path: /sitecore/content/sxastarter/sxastarter/Data/IconWithTextDescription/More Inquiries/Job title2
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1bc480fd-4bd2-4b14-9c56-770e9c0a840c"
+      Hint: description
+      Value: 999999999
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230217T121343Z
+    - ID: "438c9bd3-eb44-427a-a374-d6d2475f0838"
+      Hint: SubTitle
+      Value: Job title 2
+    - ID: "492e5e7d-237a-4429-b85a-5f35a09330d1"
+      Hint: title
+      Value: Lorem Ipsum 2
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "83888e6b-aca3-4e80-bf98-db463fde3033"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "c371a801-3a34-42d4-8898-2967046a5e2e"
+      Hint: image
+      Value: |
+        <image mediaid="{D9508683-4612-4FEA-8A99-6FC23AB67123}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230220T102858Z

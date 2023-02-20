@@ -1,0 +1,36 @@
+﻿---
+ID: "bf5f21d8-4ef8-444c-a6d6-00ee68e96eaf"
+Parent: "4e2c7bc8-f4ad-470a-bc0b-cd031616a09f"
+Template: "b214978f-4be5-473d-9c9c-45c2b2ea7c3b"
+Path: /sitecore/content/sxastarter/sxastarter/Data/IconTitleDescriptionList/At a Glance List
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1bc480fd-4bd2-4b14-9c56-770e9c0a840c"
+      Hint: description
+      Value: "Dar Group delivers complex projects--from inception through completion--for clients of any size, anywhere in the world."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230217T122847Z
+    - ID: "3cf096ac-1d69-4d9f-adab-dc2c45d9a833"
+      Hint: IconTitleDescriptionList
+      Value: |
+        {3B8CBB82-AC6B-4158-B749-BBBC6CD8C46A}
+        {3BA81421-B926-4EA9-B18C-2948BE6C8038}
+        {E5FDEF80-7951-4747-9BD7-7043EEEA559E}
+        {927BA915-C8B2-43F2-97FC-A343F0DD0C90}
+    - ID: "492e5e7d-237a-4429-b85a-5f35a09330d1"
+      Hint: title
+      Value: At a glance
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5842f42c-0642-46fd-8d21-33722799d33f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230217T123532Z

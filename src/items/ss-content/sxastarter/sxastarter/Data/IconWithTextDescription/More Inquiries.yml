@@ -1,0 +1,27 @@
+﻿---
+ID: "adf81013-9dd1-4ad5-822e-8fd77f9dd8ad"
+Parent: "cb04a406-e155-4efa-b057-73dc9aa81614"
+Template: "e9fb616c-4f0a-436b-9456-38fd231ab73a"
+Path: /sitecore/content/sxastarter/sxastarter/Data/IconWithTextDescription/More Inquiries
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230220T093918Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "17ece301-2069-4a27-8af3-7bc3e4eb2fcd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230220T094136Z

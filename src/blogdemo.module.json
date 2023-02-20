@@ -5,23 +5,28 @@
         "includes": [
             {
                 "name": "bg-templates",
-                "path": "/sitecore/templates/Project/blogdemo"
+                "path": "/sitecore/templates/Project/blogdemo",
+                "allowedPushOperations": "createAndUpdate"
             },
             {
                 "name": "bg-media",
-                "path": "/sitecore/media library/Project/blogdemo"
+                "path": "/sitecore/media library/Project/blogdemo",
+                "allowedPushOperations": "createAndUpdate"
             },
             {
                 "name": "bg-placeholders",
-                "path": "/sitecore/layout/Placeholder Settings/Project/blogdemo"
+                "path": "/sitecore/layout/Placeholder Settings/Project/blogdemo",
+                "allowedPushOperations": "createAndUpdate"
             },
             {
                 "name": "bg-renderings",
-                "path": "/sitecore/layout/Renderings/Project/blogdemo"
+                "path": "/sitecore/layout/Renderings/Project/blogdemo",
+                "allowedPushOperations": "createAndUpdate"
             },
             {
                 "name": "bg-content",
-                "path": "/sitecore/content/blogdemo"
+                "path": "/sitecore/content/blogdemo",
+                "allowedPushOperations": "createAndUpdate"
             }
         ]
     }

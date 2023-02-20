@@ -6,19 +6,23 @@
         "includes": [
             {
                 "name": "ss-templates",
-                "path": "/sitecore/templates/Project/sxastarter"
+                "path": "/sitecore/templates/Project/sxastarter",
+                "allowedPushOperations": "createAndUpdate"
             },
             {
                 "name": "ss-placeholders",
-                "path": "/sitecore/layout/Placeholder Settings/Project/sxastarter"
+                "path": "/sitecore/layout/Placeholder Settings/Project/sxastarter",
+                "allowedPushOperations": "createAndUpdate"
             },
             {
                 "name": "ss-renderings",
-                "path": "/sitecore/layout/Renderings/Project/sxastarter"
+                "path": "/sitecore/layout/Renderings/Project/sxastarter",
+                "allowedPushOperations": "createAndUpdate"
             },
             {
                 "name": "ss-content",
-                "path": "/sitecore/content/sxastarter"
+                "path": "/sitecore/content/sxastarter",
+                "allowedPushOperations": "createAndUpdate"
             }
         ]
     }

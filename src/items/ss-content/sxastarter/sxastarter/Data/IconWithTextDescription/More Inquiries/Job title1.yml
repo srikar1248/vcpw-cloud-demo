@@ -1,31 +1,32 @@
 ﻿---
-ID: "3b8cbb82-ac6b-4158-b749-bbbc6cd8c46a"
-Parent: "cb04a406-e155-4efa-b057-73dc9aa81614"
+ID: "c62eb208-d2a4-4100-9701-ca5136ac9d40"
+Parent: "adf81013-9dd1-4ad5-822e-8fd77f9dd8ad"
 Template: "f38201bb-a2de-4d17-9104-970da269a960"
-Path: /sitecore/content/sxastarter/sxastarter/Data/IconWithTextDescription/Countries
+Path: /sitecore/content/sxastarter/sxastarter/Data/IconWithTextDescription/More Inquiries/Job title1
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
-    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
-      Hint: __Lock
-      Value: <r />
     - ID: "1bc480fd-4bd2-4b14-9c56-770e9c0a840c"
       Hint: description
-      Value: Spanning most major cities in the Americas, Europe, Australasia, the Middle East, Africa, and Asia.
+      Value: 999999999
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230217T121343Z
+      Value: 20230217T121737Z
     - ID: "438c9bd3-eb44-427a-a374-d6d2475f0838"
       Hint: SubTitle
-      Value: Countries
+      Value: Job Title
     - ID: "492e5e7d-237a-4429-b85a-5f35a09330d1"
       Hint: title
-      Value: 60
+      Value: Lorem Ipsum
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b8b09929-5aa7-4b81-9ed8-d3bed0c35a70"
+      Value: "58b594f0-63fb-45c0-97ce-c31e4de1afbd"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -33,7 +34,7 @@ Languages:
     - ID: "c371a801-3a34-42d4-8898-2967046a5e2e"
       Hint: image
       Value: |
-        <image mediaid="{932F11C6-F76C-4305-B000-097FF3857348}" />
+        <image mediaid="{D9508683-4612-4FEA-8A99-6FC23AB67123}" />
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230217T143945Z
+      Value: 20230220T102848Z
