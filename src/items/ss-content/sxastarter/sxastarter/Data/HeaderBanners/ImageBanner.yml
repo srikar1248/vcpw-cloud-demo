@@ -5,7 +5,7 @@ Template: "c081ef15-ee85-4b9e-94da-e3a9660d2613"
 Path: /sitecore/content/sxastarter/sxastarter/Data/HeaderBanners/ImageBanner
 SharedFields:
 - ID: "d10b22c5-eff2-4cbc-8bd9-ccbc314ee825"
-  Hint: getStartedLink
+  Hint: primarylink
   Value: |
     <link text="Get Started" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{597C1B05-6333-4E31-8638-F06CA1FE8C32}" />
 Languages:
@@ -26,12 +26,12 @@ Languages:
       Hint: title
       Value: A Bootstrap 5 template for modern businesses
     - ID: "7117166f-12fc-480b-99d2-c82fdbaf2ff3"
-      Hint: learnMoreLink
+      Hint: secondarylink
       Value: |
         <link text="Learn More" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{597C1B05-6333-4E31-8638-F06CA1FE8C32}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6213ba4a-300b-4b25-a7c0-46a4c32375c7"
+      Value: "a59f98b1-78d1-484c-849b-b33c86fc8a40"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -39,7 +39,7 @@ Languages:
     - ID: "c371a801-3a34-42d4-8898-2967046a5e2e"
       Hint: image
       Value: |
-        <image mediaid="{0416977B-497A-4B33-9F28-6A33A9803207}" />
+        <image mediaid="{B2C609CE-88C1-4E66-BB19-38A274EBFF82}" />
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230217T110538Z
+      Value: 20230220T112309Z
