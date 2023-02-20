@@ -6,7 +6,7 @@ Path: /sitecore/content/sxastarter/sxastarter/Home/DemoPage
 SharedFields:
 - ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
   Hint: Page Design
-  Value: "{8E326ED3-952D-4A1B-8712-BFA207A674CF}"
+  Value: 
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 0
@@ -38,10 +38,26 @@ Languages:
               s:ph="headless-header"
               s:ccb="Clear on publish" />
             <r
+              uid="{BA81DD65-69EA-4CCA-B496-33E09DF3A202}"
+              p:after="r[@uid='{1A70AC41-24C8-49A6-9E61-0B8536F95311}']"
+              s:ds="{BD5CC9AA-AE40-4BA7-BDCA-090D172A22DD}"
+              s:id="{BEB63378-FC59-44F6-8305-CA432E24D402}"
+              s:par="CSSStyles"
+              s:ph="headless-main"
+              s:ccb="Clear on publish" />
+            <r
               uid="{ACF827A6-4836-4F7A-A5E7-12E167B76F5A}"
-              p:after="*[1=2]"
+              p:after="r[@uid='{BA81DD65-69EA-4CCA-B496-33E09DF3A202}']"
               s:ds="{BF5F21D8-4EF8-444C-A6D6-00EE68E96EAF}"
               s:id="{69A2947D-A54B-4844-B074-AEB0568F6DAF}"
+              s:par="CSSStyles"
+              s:ph="headless-main"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{6EC9F3A7-3E31-4D88-A4CB-6844B446684E}"
+              p:after="*[1=2]"
+              s:ds="{CF980710-7804-4CFD-9C28-2CB20E9D386B}"
+              s:id="{6A061C30-CD56-4DA5-8926-B9610B5E6316}"
               s:par="CSSStyles"
               s:ph="headless-main"
               s:ccb="Clear on publish" />
@@ -58,11 +74,11 @@ Languages:
       Value: DemoPage
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "56134be6-8857-4c0e-8164-d9a3a6f8767d"
+      Value: "56ff05f6-5629-4713-a884-75d9a9a61573"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\srikaracharya.vatkanambi@ogilvy.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230217T124346Z
+      Value: 20230220T102731Z

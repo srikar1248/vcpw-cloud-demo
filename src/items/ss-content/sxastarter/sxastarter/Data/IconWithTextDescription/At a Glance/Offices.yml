@@ -1,8 +1,12 @@
 ﻿---
-ID: "3ba81421-b926-4ea9-b18c-2948be6c8038"
-Parent: "cb04a406-e155-4efa-b057-73dc9aa81614"
+ID: "927ba915-c8b2-43f2-97fc-a343f0dd0c90"
+Parent: "dae94ef2-c860-41b4-ba3c-37b549da1149"
 Template: "f38201bb-a2de-4d17-9104-970da269a960"
-Path: /sitecore/content/sxastarter/sxastarter/Data/IconWithTextDescription/Employees
+Path: /sitecore/content/sxastarter/sxastarter/Data/IconWithTextDescription/At a Glance/Offices
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
 Languages:
 - Language: en
   Versions:
@@ -10,19 +14,21 @@ Languages:
     Fields:
     - ID: "1bc480fd-4bd2-4b14-9c56-770e9c0a840c"
       Hint: description
-      Value: Operating from a total of 297 offices and 60 countries
+      Value: |
+        At Dar Group we will embed sustainability across our group within everything we do
+        
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230217T121700Z
+      Value: 20230217T121637Z
     - ID: "438c9bd3-eb44-427a-a374-d6d2475f0838"
       Hint: SubTitle
-      Value: Employees
+      Value: Offices
     - ID: "492e5e7d-237a-4429-b85a-5f35a09330d1"
       Hint: title
-      Value: 18,600
+      Value: 297
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "df8f1254-f310-4fe2-b71f-7dd1ef1848f6"
+      Value: "87b426cd-bfa8-4e30-96df-1e76a96ac23d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -30,7 +36,7 @@ Languages:
     - ID: "c371a801-3a34-42d4-8898-2967046a5e2e"
       Hint: image
       Value: |
-        <image mediaid="{F610B0C4-9A6D-4D78-9305-B5F29F394DBD}" />
+        <image mediaid="{64308517-2197-423D-9AFC-F26ABAF3767D}" />
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230217T123754Z
+      Value: 20230220T094056Z

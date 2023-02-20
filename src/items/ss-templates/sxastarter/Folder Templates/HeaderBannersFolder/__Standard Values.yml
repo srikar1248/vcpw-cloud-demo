@@ -6,7 +6,9 @@ Path: /sitecore/templates/Project/sxastarter/Folder Templates/HeaderBannersFolde
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
-  Value: "{C081EF15-EE85-4B9E-94DA-E3A9660D2613}"
+  Value: |
+    {C081EF15-EE85-4B9E-94DA-E3A9660D2613}
+    {5F4AAB16-0FE7-443A-B1F4-EA5E690B3D76}
 Languages:
 - Language: en
   Versions:
@@ -25,11 +27,11 @@ Languages:
         sitecore\srikaracharya.vatkanambi@ogilvy.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1cbe29cb-2eca-483f-af36-08eaf1e2c93d"
+      Value: "504cb1a1-ccc8-4c27-95f4-f46549761369"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\srikaracharya.vatkanambi@ogilvy.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230216T122633Z
+      Value: 20230220T082418Z

@@ -1,8 +1,12 @@
 ﻿---
-ID: "7b15a5b7-e91d-4cab-aa4f-4c9764dc60e7"
-Parent: "c081ef15-ee85-4b9e-94da-e3a9660d2613"
-Template: "c081ef15-ee85-4b9e-94da-e3a9660d2613"
-Path: /sitecore/templates/Project/sxastarter/Basic Modules/Banners/HeaderBanner/__Standard Values
+ID: "dae94ef2-c860-41b4-ba3c-37b549da1149"
+Parent: "cb04a406-e155-4efa-b057-73dc9aa81614"
+Template: "e9fb616c-4f0a-436b-9456-38fd231ab73a"
+Path: /sitecore/content/sxastarter/sxastarter/Data/IconWithTextDescription/At a Glance
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
 Languages:
 - Language: en
   Versions:
@@ -10,14 +14,14 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230216T121225Z
+      Value: 20230220T093918Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a6d42ff6-1907-458b-ade9-fc017a8d3d37"
+      Value: "17ece301-2069-4a27-8af3-7bc3e4eb2fcd"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\srikaracharya.vatkanambi@ogilvy.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230216T134533Z
+      Value: 20230220T094136Z

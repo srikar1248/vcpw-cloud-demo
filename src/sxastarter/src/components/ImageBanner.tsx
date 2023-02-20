@@ -14,11 +14,11 @@ type HeaderBannerProps = ComponentProps & {
     image: ImageField;
     title: Field<string>;
     description: Field<string>;
-    getStartedLink: LinkField;
-    learnMoreLink: LinkField;
+    primarylink: LinkField;
+    secondarylink: LinkField;
   };
 };
-const HeaderBanner = (props: HeaderBannerProps): JSX.Element => (
+const ImageBanner = (props: HeaderBannerProps): JSX.Element => (
   <header className="bg-dark py-5">
     <div className="container px-5">
       <div className="row gx-5 align-items-center justify-content-center">
@@ -37,21 +37,21 @@ const HeaderBanner = (props: HeaderBannerProps): JSX.Element => (
             <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
               <JssLink
                 className="btn btn-primary btn-lg px-4 me-sm-3"
-                field={props?.fields?.getStartedLink}
+                field={props?.fields?.primarylink}
               ></JssLink>
               <JssLink
                 className="btn btn-outline-light btn-lg px-4"
-                field={props?.fields?.learnMoreLink}
+                field={props?.fields?.secondarylink}
               ></JssLink>
             </div>
           </div>
         </div>
         <div className="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
-          <JssImage classsName="img-fluid rounded-3 my-5" field={props?.fields?.image} />
+          <JssImage className="img-fluid rounded-3 my-5" field={props?.fields?.image} />
         </div>
       </div>
     </div>
   </header>
 );
 
-export default withDatasourceCheck()<HeaderBannerProps>(HeaderBanner);
+export default withDatasourceCheck()<HeaderBannerProps>(ImageBanner);

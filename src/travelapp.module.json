@@ -5,23 +5,28 @@
         "includes": [
             {
                 "name": "ta-templates",
-                "path": "/sitecore/templates/Project/travelapp"
+                "path": "/sitecore/templates/Project/travelapp",
+                "allowedPushOperations": "createAndUpdate"
             },
             {
                 "name": "ta-media",
-                "path": "/sitecore/media library/Project/travelapp"
+                "path": "/sitecore/media library/Project/travelapp",
+                "allowedPushOperations": "createAndUpdate"
             },
             {
                 "name": "ta-placeholders",
-                "path": "/sitecore/layout/Placeholder Settings/Project/travelapp"
+                "path": "/sitecore/layout/Placeholder Settings/Project/travelapp",
+                "allowedPushOperations": "createAndUpdate"
             },
             {
                 "name": "ta-renderings",
-                "path": "/sitecore/layout/Renderings/Project/travelapp"
+                "path": "/sitecore/layout/Renderings/Project/travelapp",
+                "allowedPushOperations": "createAndUpdate"
             },
             {
                 "name": "ta-content",
-                "path": "/sitecore/content/travelapp"
+                "path": "/sitecore/content/travelapp",
+                "allowedPushOperations": "createAndUpdate"
             }
         ]
     }
