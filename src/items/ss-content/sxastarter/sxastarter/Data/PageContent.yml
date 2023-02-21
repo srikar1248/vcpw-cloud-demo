@@ -1,0 +1,23 @@
+﻿---
+ID: "fa62dc95-4104-420f-b1be-931c13f9b98c"
+Parent: "2499f32d-f78e-457d-a36d-3fca34c9760a"
+Template: "ebb15b8a-ee0a-4035-8eac-dc672b46139e"
+Path: /sitecore/content/sxastarter/sxastarter/Data/PageContent
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230221T060043Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "94e3bf4e-8d94-429b-a339-ca830580d416"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230221T060043Z
