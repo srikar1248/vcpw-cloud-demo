@@ -6,7 +6,7 @@ Path: /sitecore/content/sxastarter/sxastarter/Data/HeaderBanners/VideoBanner
 SharedFields:
 - ID: "1952aa49-3b9a-4c1b-9363-9b23d821c9c1"
   Hint: videolink
-  Value: "https://www.youtube.com/watch?v=wWgIAphfn2U"
+  Value: "https://www.youtube.com/watch?v=LdxNRo22Vf8&list=PL1jJVFm_lGnzqYagW1UahIBeqTIYSBQMc&index=1"
 - ID: "2b0dae7b-04da-4ad9-a5e9-1ad82721fc51"
   Hint: link
   Value: |
@@ -16,6 +16,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "1bc480fd-4bd2-4b14-9c56-770e9c0a840c"
       Hint: description
       Value: |
@@ -31,11 +34,11 @@ Languages:
       Value: Connect people, places, and communities
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "31d6e0b6-e8a9-4300-aa14-c566c1d76ecb"
+      Value: "6d693c68-9831-4319-aa01-92d530a77c2e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\srikaracharya.vatkanambi@ogilvy.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230220T093055Z
+      Value: 20230221T072636Z

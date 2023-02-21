@@ -1,10 +1,12 @@
 import {
   Text,
   Field,
+  useSitecoreContext,
   withDatasourceCheck,
   LinkField,
   Link as JssLink,
   RichText as JssRichText,
+  LayoutServiceData,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
 import * as React from 'react';
@@ -16,9 +18,11 @@ type VideoBannerProps = ComponentProps & {
     description: Field<string>;
     link: LinkField;
     videolink: Field<string>;
+    layoutData: LayoutServiceData;
   };
 };
 const VideoBanner = (props: VideoBannerProps): JSX.Element => {
+  const { sitecoreContext } = useSitecoreContext();
   const [domLoaded, setDomLoaded] = useState(false);
   useEffect(() => {
     setDomLoaded(true);
@@ -27,7 +31,7 @@ const VideoBanner = (props: VideoBannerProps): JSX.Element => {
     <header className="bg-light py-5">
       <div className="container px-5">
         <div className="row gx-5 align-items-center justify-content-center">
-          <div className="col-lg-8 col-xl-7 col-xxl-6">
+          <div className="col-lg-8 col-xl-5 col-xxl-6">
             <div className="my-5 text-center text-xl-start">
               <Text
                 tag="h1"
@@ -47,8 +51,11 @@ const VideoBanner = (props: VideoBannerProps): JSX.Element => {
               </div>
             </div>
           </div>
-          <div className="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
+          <div className="col-xl-7 col-xxl-6 d-none d-xl-block text-center">
             {domLoaded ? <ReactPlayer url={props?.fields?.videolink.value} width="100%" /> : null}
+            {sitecoreContext?.pageEditing ? (
+              <Text tag="p" field={props?.fields?.videolink as Field<string>} />
+            ) : null}
           </div>
         </div>
       </div>
