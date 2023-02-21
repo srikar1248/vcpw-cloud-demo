@@ -1,4 +1,9 @@
-import { Text, Field, withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
+import {
+  Text,
+  Field,
+  useSitecoreContext,
+  withDatasourceCheck,
+} from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
 import ReactPlayer from 'react-player';
 import { useEffect, useState } from 'react';
@@ -11,6 +16,7 @@ type TestComponentProps = ComponentProps & {
 };
 
 const TestComponent = (props: TestComponentProps): JSX.Element => {
+  const { sitecoreContext } = useSitecoreContext();
   const [domLoaded, setDomLoaded] = useState(false);
   useEffect(() => {
     setDomLoaded(true);
@@ -21,6 +27,7 @@ const TestComponent = (props: TestComponentProps): JSX.Element => {
       <p>TestComponent Component</p>
       <Text field={props.fields.heading} />
       {domLoaded ? <ReactPlayer url={url} /> : null}
+      {sitecoreContext?.pageEditing ? <p>Page is in edit mode</p> : null}
     </div>
   );
 };
