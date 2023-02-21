@@ -9,7 +9,9 @@ SharedFields:
   Value: Office/32x32/video_chat.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
-  Value: "{0B392B47-0AE7-4181-9010-9A0B95928476}"
+  Value: |
+    {0B392B47-0AE7-4181-9010-9A0B95928476}
+    {4E345659-1922-4B2B-AECA-328EEE10535C}
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
   Value: "{D5876985-423E-42A9-97FB-6B0DEF35A8AC}"
@@ -31,11 +33,11 @@ Languages:
         sitecore\srikaracharya.vatkanambi@ogilvy.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0d74a1ff-6aaa-4246-9491-ab2ffaeb1b5c"
+      Value: "2af464f5-c77e-4a0b-b416-c217388cdbbf"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\srikaracharya.vatkanambi@ogilvy.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230220T082106Z
+      Value: 20230221T113442Z
