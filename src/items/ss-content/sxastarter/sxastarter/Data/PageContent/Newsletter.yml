@@ -1,0 +1,44 @@
+﻿---
+ID: "9c39d11f-d4ff-4551-81fc-4cb99a9cb73e"
+Parent: "fa62dc95-4104-420f-b1be-931c13f9b98c"
+Template: "883c30c9-161c-478c-b05e-89c90a73a081"
+Path: /sitecore/content/sxastarter/sxastarter/Data/PageContent/Newsletter
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230221T060106Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "678b5fdc-96e7-4ce2-a095-0a40f0419347"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230221T061119Z
+    - ID: "f14c29b9-1dc2-411f-990b-e6444199a08a"
+      Hint: description
+      Value: |
+        <div class="container px-5 my-5">
+        <!-- Call to action-->
+        <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
+        <div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
+        <div class="mb-4 mb-xl-0">
+        <div class="fs-3 fw-bold text-white">New products, delivered to you.</div>
+        <div class="text-white-50">Sign up for our newsletter for the latest updates.</div>
+        </div>
+        <div class="ms-xl-4">
+        <div class="input-group mb-2">
+        <input class="form-control" type="text" placeholder="Email address..." aria-label="Email address..." aria-describedby="button-newsletter" />
+        <button class="btn btn-outline-light" id="button-newsletter" type="button">Sign up</button>
+        </div>
+        <div class="small text-white-50">We care about privacy, and will never share your data.</div>
+        </div>
+        </div>
+        </aside>
+        </div>

@@ -1,0 +1,45 @@
+﻿---
+ID: "fb76147a-d253-4283-b714-fcfea537d76f"
+Parent: "fa62dc95-4104-420f-b1be-931c13f9b98c"
+Template: "883c30c9-161c-478c-b05e-89c90a73a081"
+Path: /sitecore/content/sxastarter/sxastarter/Data/PageContent/Testimonial
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230221T062114Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "64ef64a7-0976-4b33-9103-2c5654507361"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230221T062412Z
+    - ID: "f14c29b9-1dc2-411f-990b-e6444199a08a"
+      Hint: description
+      Value: |
+            <div class="py-5 bg-light">
+                        <div class="container px-5 my-5">
+                            <div class="row gx-5 justify-content-center">
+                                <div class="col-lg-10 col-xl-7">
+                                    <div class="text-center">
+                                        <div class="fs-4 mb-4 fst-italic">"Working with Start Bootstrap templates has saved me tons of development time when building new projects! Starting with a Bootstrap template just makes things easier!"</div>
+                                        <div class="d-flex align-items-center justify-content-center">
+                                            <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
+                                            <div class="fw-bold">
+                                                Tom Ato
+                                                <span class="fw-bold text-primary mx-1">/</span>
+                                                CEO, Pomodoro
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>

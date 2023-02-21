@@ -1,20 +1,21 @@
 ﻿---
-ID: "b214978f-4be5-473d-9c9c-45c2b2ea7c3b"
-Parent: "5880f255-de2f-4442-a8da-eeb9b8d4d49c"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Project/sxastarter/Basic Modules/IconTitleDescriptionList
+ID: "037ad281-f1e1-471d-b838-834cab4aa3c0"
+Parent: "57f2ecfc-2d84-44dd-9660-738ca8934957"
+Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
+Path: /sitecore/layout/Renderings/Project/sxastarter/Testimonial
 SharedFields:
+- ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
+  Hint: componentName
+  Value: Testimonial
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: office/32x32/spreadsheed_chart.png
-- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
-  Hint: __Base template
-  Value: |
-    {4E345659-1922-4B2B-AECA-328EEE10535C}
-    {0B392B47-0AE7-4181-9010-9A0B95928476}
-- ID: "f7d48a55-2158-4f02-9356-756654404f73"
-  Hint: __Standard values
-  Value: "{53B1113B-47E5-4E51-B1DA-0561131C136A}"
+  Value: Applications/16x16/notebook.png
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/Project/sxastarter/Basic Modules/PageContent
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: /sitecore/content/sxastarter/sxastarter/Data/PageContent
 Languages:
 - Language: en
   Versions:
@@ -22,7 +23,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230217T121948Z
+      Value: 20230221T060440Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -33,11 +34,11 @@ Languages:
         sitecore\srikaracharya.vatkanambi@ogilvy.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f6f1ba31-3226-4490-9570-33884cd6a555"
+      Value: "c5a68fc3-24ab-49d5-85c0-87ea77d3004a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\srikaracharya.vatkanambi@ogilvy.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230221T055350Z
+      Value: 20230221T061729Z
