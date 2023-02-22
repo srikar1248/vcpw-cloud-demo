@@ -6,7 +6,7 @@ Path: /sitecore/templates/Project/sxastarter/Base Template/_RichText
 SharedFields:
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
-  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
+  Value: "{4E345659-1922-4B2B-AECA-328EEE10535C}"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
   Value: "{72F3431B-68DE-4827-A2A8-AD2135339146}"
@@ -28,11 +28,11 @@ Languages:
         sitecore\srikaracharya.vatkanambi@ogilvy.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "dba49b23-c7ce-4126-994d-967fd633ec00"
+      Value: "8ce57c6b-d809-4df7-8aee-908b070631e6"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\srikaracharya.vatkanambi@ogilvy.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230221T055208Z
+      Value: 20230221T113540Z
