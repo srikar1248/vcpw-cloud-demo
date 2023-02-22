@@ -6,8 +6,6 @@ import {
   TextField,
   useSitecoreContext,
 } from '@sitecore-jss/sitecore-jss-nextjs';
-import SitecoreIcon from 'components/shared/SitecoreIcon';
-
 interface Fields {
   Id: string;
   DisplayName: string;
@@ -95,7 +93,7 @@ export const Default = (props: NavigationProps): JSX.Element => {
     <nav className={`navbar navbar-expand-lg navbar-dark bg-dark`}>
       <div className="container px-5">
         <a className="navbar-brand logo-text" href="/">
-          <SitecoreIcon icon="DarLogo" alt="Menu" />
+          DARGROUP
         </a>
         <button
           className="navbar-toggler"
