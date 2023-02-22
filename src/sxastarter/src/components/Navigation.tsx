@@ -6,6 +6,7 @@ import {
   TextField,
   useSitecoreContext,
 } from '@sitecore-jss/sitecore-jss-nextjs';
+import Image from 'next/image';
 interface Fields {
   Id: string;
   DisplayName: string;
@@ -93,7 +94,7 @@ export const Default = (props: NavigationProps): JSX.Element => {
     <nav className={`navbar navbar-expand-lg navbar-dark bg-dark`}>
       <div className="container px-5">
         <a className="navbar-brand logo-text" href="/">
-          DARGROUP
+          <Image src="/logo.png" alt="logo" width="226px" height="33px" />
         </a>
         <button
           className="navbar-toggler"
