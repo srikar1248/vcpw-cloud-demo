@@ -31,11 +31,11 @@ const VideoBanner = (props: VideoBannerProps): JSX.Element => {
     <header className="bg-light py-5">
       <div className="container px-5">
         <div className="row gx-5 align-items-center justify-content-center">
-          <div className="col-lg-8 col-xl-5 col-xxl-6">
+          <div className="col-lg-4">
             <div className="my-5 text-center text-xl-start">
               <Text
-                tag="h1"
-                className="display-5 fw-bolder mb-2"
+                tag="h2"
+                className="fw-bolder mb-4 pb-4 line"
                 field={props?.fields?.title as Field<string>}
               />
               <JssRichText
@@ -51,7 +51,7 @@ const VideoBanner = (props: VideoBannerProps): JSX.Element => {
               </div>
             </div>
           </div>
-          <div className="col-xl-7 col-xxl-6 d-none d-xl-block text-center">
+          <div className="col-xl-8 d-none d-xl-block text-center">
             {domLoaded ? <ReactPlayer url={props?.fields?.videolink.value} width="100%" /> : null}
             {sitecoreContext?.pageEditing ? (
               <Text tag="p" field={props?.fields?.videolink as Field<string>} />
