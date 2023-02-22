@@ -41,17 +41,17 @@ const RoundedCircleIconTitleDescription = (
                 />
                 <Text
                   tag="h5"
-                  className="fw-bolder"
+                  className="fw-bolder mb-0"
                   field={element?.fields?.title as Field<string>}
                 />
                 <Text
                   tag="div"
-                  className="fst-italic text-muted"
+                  className="fst-italic text-muted pb-3 border-bottom"
                   field={element?.fields?.SubTitle as Field<string>}
                 />
                 <Text
                   tag="div"
-                  className="fst-italic text-muted"
+                  className="fst-italic text-muted pb-1 pt-1 border-bottom"
                   field={element?.fields?.description as Field<string>}
                 />
               </div>

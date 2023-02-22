@@ -3,6 +3,13 @@ ID: "de4ac626-fdff-4db8-bf69-c1f707cd1c42"
 Parent: "4e345659-1922-4b2b-aeca-328eee10535c"
 Template: "4e345659-1922-4b2b-aeca-328eee10535c"
 Path: /sitecore/templates/Project/sxastarter/Base Template/_BaseTemplate/__Standard Values
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
 Languages:
 - Language: en
   Versions:
@@ -11,6 +18,9 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20230216T120050Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,11 +31,11 @@ Languages:
         sitecore\srikaracharya.vatkanambi@ogilvy.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e959dd51-019e-4805-a0d8-4c305ce0e5cf"
+      Value: "73debe4b-6780-476c-88ea-c7e14eb7dfa2"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\srikaracharya.vatkanambi@ogilvy.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230216T120050Z
+      Value: 20230222T093832Z
