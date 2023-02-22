@@ -12,7 +12,7 @@ SharedFields:
   Value: 
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
-  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
+  Value: "{4E345659-1922-4B2B-AECA-328EEE10535C}"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
   Value: "{57AFCC60-7A52-44D0-A62C-B61614168CE5}"
@@ -34,11 +34,11 @@ Languages:
         sitecore\srikaracharya.vatkanambi@ogilvy.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "03a8bf41-b7f2-43f7-99c2-3494c2c6fc4d"
+      Value: "4d9147b6-262f-40bf-8346-73a1b5299aba"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\srikaracharya.vatkanambi@ogilvy.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230216T122616Z
+      Value: 20230221T113230Z
