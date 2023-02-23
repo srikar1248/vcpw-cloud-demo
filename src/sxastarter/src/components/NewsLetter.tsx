@@ -37,6 +37,7 @@ const postData = async (data: any) => {
   try {
     const response = await axios.post('api/test', contact, config);
     console.log(response.data);
+    alert('Thanks for subscribing.');
   } catch (error) {
     console.error(error);
   }
@@ -50,6 +51,7 @@ const NewsLetter = (props: NewsLetterProps): JSX.Element => {
     // Send form data to server or API
     console.log(formData.email);
     postData(formData.email);
+    setFormData((prevState) => ({ ...prevState, ['email']: '' }));
   };
 
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
