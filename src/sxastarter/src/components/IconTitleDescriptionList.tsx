@@ -35,7 +35,7 @@ const IconTitleDescriptionList = (props: IconTitleDescriptionListProps): JSX.Ele
                   className="img-fluid rounded-1 my-1"
                   field={element?.fields?.image as ImageField}
                 />
-                <div className="line"> </div>;
+                <div className="line"> </div>
                 <Text
                   tag="p"
                   className="display-5 fw-bolder mb-0 mt-4"

@@ -11329,3 +11329,16 @@ body .scWebEditInput {
   width: 64px;
   background-color: #7749F8;
 }
+.bg-primary {
+  background-color: #7749F8 !important;
+  border-color: #7749F8 !important;
+}
+.btn-form-outline-light {
+  color: white !important;
+  border-color: white !important;
+}
+.btn-form-outline-light:hover {
+  color: #000;
+  background-color: #7749F8;
+  border-color: #f8f9fa;
+}
