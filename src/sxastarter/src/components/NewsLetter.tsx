@@ -21,10 +21,11 @@ interface FormData {
 }
 
 const postData = async (data: any) => {
+  const userEmail = data as string;
   const contact = {
-    email_address: data as string,
+    email_address: userEmail,
     status: 'subscribed',
-    merge_fields: { FNAME: 'User', LNAME: 'B' },
+    merge_fields: { FNAME: userEmail.split('@')[0], LNAME: userEmail.split('@')[1] },
     tags: ['dargroup'],
   }; // Add the contact to the list
   const config = {
