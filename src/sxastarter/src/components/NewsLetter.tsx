@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import {
   Field,
   RichText as JssRichText,
@@ -6,6 +7,7 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
 import { useState } from 'react';
+import axios from 'axios';
 type NewsLetterProps = ComponentProps & {
   fields: {
     title: Field<string>;
@@ -17,6 +19,27 @@ type NewsLetterProps = ComponentProps & {
 interface FormData {
   email: string;
 }
+
+const postData = async (data: any) => {
+  const contact = {
+    email_address: data as string,
+    status: 'subscribed',
+    merge_fields: { FNAME: 'User', LNAME: 'B' },
+    tags: ['dargroup'],
+  }; // Add the contact to the list
+  const config = {
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  };
+  try {
+    const response = await axios.post('api/test', contact, config);
+    console.log(response.data);
+  } catch (error) {
+    console.error(error);
+  }
+};
+
 const NewsLetter = (props: NewsLetterProps): JSX.Element => {
   const [formData, setFormData] = useState<FormData>({ email: '' });
 
@@ -24,12 +47,14 @@ const NewsLetter = (props: NewsLetterProps): JSX.Element => {
     event.preventDefault();
     // Send form data to server or API
     console.log(formData.email);
+    postData(formData.email);
   };
 
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = event.target;
     setFormData((prevState) => ({ ...prevState, [name]: value }));
   };
+
   return (
     <div className="container px-5 my-5">
       <aside className="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
@@ -47,8 +72,8 @@ const NewsLetter = (props: NewsLetterProps): JSX.Element => {
             />
           </div>
           <div className="ms-xl-4">
-            <div className="input-group mb-2">
-              <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit}>
+              <div className="input-group mb-2">
                 <input
                   name="email"
                   className="form-control"
@@ -64,8 +89,8 @@ const NewsLetter = (props: NewsLetterProps): JSX.Element => {
                 <button className="btn btn-outline-light" id="button-newsletter" type="submit">
                   <JssText field={props?.fields?.signUpButton as Field<string>} />
                 </button>
-              </form>
-            </div>
+              </div>
+            </form>
             <JssText
               tag="div"
               className="small text-white-50"
