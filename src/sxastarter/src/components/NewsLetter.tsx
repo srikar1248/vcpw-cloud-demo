@@ -14,6 +14,7 @@ type NewsLetterProps = ComponentProps & {
     description: Field<string>;
     privacyNote: Field<string>;
     signUpButton: Field<string>;
+    emailPlaceholder: Field<string>;
   };
 };
 interface FormData {
@@ -82,12 +83,12 @@ const NewsLetter = (props: NewsLetterProps): JSX.Element => {
                   id="txtemail"
                   value={formData.email}
                   onChange={handleInputChange}
-                  placeholder="Email address..."
+                  placeholder={props?.fields?.emailPlaceholder.value}
                   aria-label="Email address..."
                   aria-describedby="button-newsletter"
                   required
                 />
-                <button className="btn btn-outline-light" id="button-newsletter" type="submit">
+                <button className="btn btn-form-outline-light" id="button-newsletter" type="submit">
                   <JssText field={props?.fields?.signUpButton as Field<string>} />
                 </button>
               </div>
