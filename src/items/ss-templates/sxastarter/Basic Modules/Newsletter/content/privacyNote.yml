@@ -1,14 +1,15 @@
 ﻿---
-ID: "7431801b-78fc-4b28-99d0-74c8efade523"
-Parent: "ebb15b8a-ee0a-4035-8eac-dc672b46139e"
-Template: "ebb15b8a-ee0a-4035-8eac-dc672b46139e"
-Path: /sitecore/templates/Project/sxastarter/Folder Templates/PageContent/__Standard Values
+ID: "b19b6702-e01b-46b8-8d09-04f5dc0c7c06"
+Parent: "7e81f2a0-3800-42aa-8a97-8668c7bed594"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/sxastarter/Basic Modules/Newsletter/content/privacyNote
 SharedFields:
-- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
-  Hint: __Masters
-  Value: |
-    {883C30C9-161C-478C-B05E-89C90A73A081}
-    {91FADB38-4F6A-4811-9A1B-4F9ADE6BEEA5}
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
 Languages:
 - Language: en
   Versions:
@@ -16,7 +17,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230217T122654Z
+      Value: 20230223T053157Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -27,11 +28,11 @@ Languages:
         sitecore\srikaracharya.vatkanambi@ogilvy.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4190ec61-fffa-4b94-9ed6-64b42cd62096"
+      Value: "a1a75dc4-4c8e-47d9-ab9c-2e3c1d98d295"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\srikaracharya.vatkanambi@ogilvy.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230223T054131Z
+      Value: 20230223T053347Z
