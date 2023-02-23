@@ -1,0 +1,23 @@
+﻿---
+ID: "bbd978f4-711e-4916-afae-6a3b00ff132c"
+Parent: "91fadb38-4f6a-4811-9a1b-4f9ade6beea5"
+Template: "91fadb38-4f6a-4811-9a1b-4f9ade6beea5"
+Path: /sitecore/templates/Project/sxastarter/Basic Modules/Newsletter/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230221T055705Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "29048719-6059-4547-aee7-fde4af44aece"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230223T053201Z
