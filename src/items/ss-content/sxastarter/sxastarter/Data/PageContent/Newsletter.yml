@@ -1,44 +1,45 @@
 ﻿---
-ID: "9c39d11f-d4ff-4551-81fc-4cb99a9cb73e"
+ID: "d228ea58-bd7a-4536-ad63-7c72ea1c7df5"
 Parent: "fa62dc95-4104-420f-b1be-931c13f9b98c"
-Template: "883c30c9-161c-478c-b05e-89c90a73a081"
+Template: "91fadb38-4f6a-4811-9a1b-4f9ade6beea5"
 Path: /sitecore/content/sxastarter/sxastarter/Data/PageContent/Newsletter
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
+    - ID: "1bc480fd-4bd2-4b14-9c56-770e9c0a840c"
+      Hint: description
+      Value: Sign up for our newsletter for the latest updates.
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230221T060106Z
+      Value: 20230223T054211Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "492e5e7d-237a-4429-b85a-5f35a09330d1"
+      Hint: title
+      Value: New products, delivered to you.
+    - ID: "82d923bb-e5ed-4831-b8fe-887d1f80df1c"
+      Hint: signUpButton
+      Value: Sign up
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "678b5fdc-96e7-4ce2-a095-0a40f0419347"
+      Value: "5da0862e-5749-4be7-babc-0fa9f9e54bd3"
+    - ID: "b19b6702-e01b-46b8-8d09-04f5dc0c7c06"
+      Hint: privacyNote
+      Value: We care about privacy, and will never share your data.
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "cd3a81ff-b869-4bdd-9e01-656ce2a33e1a"
+      Hint: emailPlaceholder
+      Value: Email address...
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230221T061119Z
-    - ID: "f14c29b9-1dc2-411f-990b-e6444199a08a"
-      Hint: description
-      Value: |
-        <div class="container px-5 my-5">
-        <!-- Call to action-->
-        <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
-        <div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
-        <div class="mb-4 mb-xl-0">
-        <div class="fs-3 fw-bold text-white">New products, delivered to you.</div>
-        <div class="text-white-50">Sign up for our newsletter for the latest updates.</div>
-        </div>
-        <div class="ms-xl-4">
-        <div class="input-group mb-2">
-        <input class="form-control" type="text" placeholder="Email address..." aria-label="Email address..." aria-describedby="button-newsletter" />
-        <button class="btn btn-outline-light" id="button-newsletter" type="button">Sign up</button>
-        </div>
-        <div class="small text-white-50">We care about privacy, and will never share your data.</div>
-        </div>
-        </div>
-        </aside>
-        </div>
+      Value: 20230223T054331Z
