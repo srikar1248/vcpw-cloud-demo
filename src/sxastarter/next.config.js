@@ -52,18 +52,6 @@ const nextConfig = {
       },
     ];
   },
-  async headers() {
-    return [
-      {
-        source: "/_next/:path*",
-        headers: [
-          { key: "Access-Control-Allow-Origin", value: "https://www.discoverglo.jp/" },
-          { key: "Referrer-Policy", value: "unsafe-url" },
-          { key: "x-custom-header", value: "testheader" }
-        ],
-      },
-    ]
-  },
 };
 
 module.exports = () => {
