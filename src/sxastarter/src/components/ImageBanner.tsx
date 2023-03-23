@@ -26,7 +26,7 @@ const ImageBanner = (props: HeaderBannerProps): JSX.Element => (
           <div className="my-5 text-center text-xl-start">
             <Text
               tag="h1"
-              className="display-5 fw-bolder text-white mb-2"
+              className="display-5 fw-bolder text-white mb-2 test"
               field={props?.fields?.title as Field<string>}
             />
             <JssRichText
