@@ -1,0 +1,23 @@
+﻿---
+ID: "f904f65e-29cf-4c25-a72f-9583690d33dd"
+Parent: "b993a0e8-6f73-40af-9d8a-45dcf80c7008"
+Template: "b993a0e8-6f73-40af-9d8a-45dcf80c7008"
+Path: /sitecore/templates/Project/sxastarter/Basic Modules/TitleWithTwoColumnDescription/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230217T114911Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "86b22a81-98a2-4465-a67d-ee7d312a68e6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230328T102517Z
