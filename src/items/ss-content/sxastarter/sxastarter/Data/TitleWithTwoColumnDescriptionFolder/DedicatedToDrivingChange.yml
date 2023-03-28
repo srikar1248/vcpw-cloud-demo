@@ -1,0 +1,52 @@
+﻿---
+ID: "516add12-d0ed-4c3e-826d-cd3afd9740cf"
+Parent: "390cc48e-e077-457a-973f-9f454ce8aeaa"
+Template: "b993a0e8-6f73-40af-9d8a-45dcf80c7008"
+Path: /sitecore/content/sxastarter/sxastarter/Data/TitleWithTwoColumnDescriptionFolder/DedicatedToDrivingChange
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "f557120a-4ce9-4ba9-ba4f-99aff130e237"
+  Hint: link
+  Value: |
+    <link text="Learn more" anchor="" linktype="internal" class="" title="" target="|Custom" querystring="" id="{597C1B05-6333-4E31-8638-F06CA1FE8C32}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1bc480fd-4bd2-4b14-9c56-770e9c0a840c"
+      Hint: description
+      Value: |
+        We've joined the World Green Building
+        Council's recently strengthened Net Zero
+        Carbon Buildings Commitment, announcing its
+        intention for all operating companies to
+        achieve net zero by 2030.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230328T103823Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "492e5e7d-237a-4429-b85a-5f35a09330d1"
+      Hint: title
+      Value: Dedicated to driving change
+    - ID: "7387556e-8233-4741-af20-e43c1d0b99e3"
+      Hint: description2
+      Value: |
+        The global commitment applies to
+        approximately 52 assets globally, using the
+        expertise within the group to develop carbon
+        reduction strategies.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ce6f477c-816a-4fb7-a9aa-8f157e4cf14b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\srikaracharya.vatkanambi@ogilvy.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230328T104612Z
